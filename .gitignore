@@ -35,3 +35,6 @@ build/
 
 # Symbolication related
 app.*.symbols
+
+# Agent internal log (not for open-source distribution)
+agent_log.md

@@ -1,0 +1,22 @@
+name: pdf_ai_parser
+description: >-
+  PDF/AI 文件解析导入组件。将 Adobe PDF / Illustrator (AI) 文件解析为
+  轻量级矢量元素列表（ParsedElement），可用于标签设计、图形编辑等场景。
+version: 0.1.0
+repository: https://github.com/mannixS/pdf-ai-parser
+homepage: https://github.com/mannixS/pdf-ai-parser
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  xml: ^6.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
